@@ -9,7 +9,7 @@ namespace WebApplicationUserstories1.Pages.UserStories
     {
         private UserStoryService userStoryService;
 
-        public List<UserStory> UserStories { get; private set; }
+        public List<UserStory>? UserStories { get; private set; }
 
         public UserStoriesModel(UserStoryService userStoryService)
         {
